@@ -7,10 +7,11 @@ cs=Number(prompt("Enter your Computer marks: "))
 
 totalMarks=500;
 obtMarks = maths+phy+eng+isl+cs;
-if(typeof obtMarks!= Number ){
-    alert("Wront Input")
+// alert(typeof obtMarks)
+if(typeof obtMarks!= "number" ){
+    alert("Wrong Input")
 }
-else{
+else if(typeof obtMarks == "number" ){
     alert("Total obtained marks are: "+obtMarks);
     percentage = (obtMarks / totalMarks) *100;
 
