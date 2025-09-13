@@ -35,13 +35,13 @@ else if (percentage<=40){
 else{
     alert("Wrong Input")
 }
-// var num
-// num=prompt("Enter Any Number: ");
-// if (num%2==0){
-//     alert("This is an even number")
-//     alert("The number is ")
-// }
-// else{
-//     alert("This is an odd number");
-//     alert("The number is ");
-// }
+var num
+num=prompt("Enter Any Number: ");
+if (num%2==0){
+    alert("This is an even number")
+    alert("The number is ")
+}
+else{
+    alert("This is an odd number");
+    alert("The number is ");
+}
